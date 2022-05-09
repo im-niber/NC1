@@ -1,0 +1,197 @@
+[
+    {
+        "title" : "Apple",
+        "means" : "a round fruit with red, yellow, or green skin and firm white flesh",
+        "isChecked" : false,
+        "type" : "noun",
+        "id" : 0
+    },
+    {
+        "title" : "Cherry",
+        "means" : "a small round fruit that is usually red or black",
+        "isChecked" : false,
+        "type" : "noun",
+        "id" : 1
+    },
+    {
+        "title" : "Word",
+        "means" : "a sound or combination of sounds that has a meaning and is spoken or written see also",
+        "isChecked" : false,
+        "type" : "noun",
+        "id" : 2
+    },
+    {
+        "title" : "Random",
+        "means" : "without a particular plan or pattern",
+        "isChecked" : false,
+        "type" : "noun",
+        "id" : 3
+    },
+    {
+        "title" : "Grape",
+        "means" : "a green, dark red, or purplish-black berry that is used to make wine or is eaten as a fruit see also",
+        "isChecked" : false,
+        "type" : "noun",
+        "id" : 4
+    },
+    {
+        "title" : "State",
+        "means" : " a way of living or existing",
+        "isChecked" : false,
+        "type" : "noun",
+        "id" : 5
+    },
+    {
+        "title" : "Binding",
+        "means" : "forcing or requiring someone to do something because of a promise, agreement, etc.",
+        "isChecked" : false,
+        "type" : "noun",
+        "id" : 6
+    },{
+        "title" : "Class",
+        "means" : "a group of students who meet regularly to be taught a subject or activity",
+        "isChecked" : false,
+        "type" : "noun",
+        "id" : 7
+    },{
+        "title" : "View",
+        "means" : "an opinion or way of thinking about something",
+        "isChecked" : false,
+        "type" : "noun",
+        "id" : 8
+    },{
+        "title" : "Structure",
+        "means" : "the way that something is built, arranged, or organized",
+        "isChecked" : false,
+        "type" : "noun",
+        "id" : 9
+    },{
+        "title" : "Implement",
+        "means" : "to begin to do or use (something, such as a plan)",
+        "isChecked" : false,
+        "type" : "verb",
+        "id" : 10
+    },{
+        "title" : "End",
+        "means" : "to stop or finish, to no longer continue to happen or exist",
+        "isChecked" : false,
+        "type" : "verb",
+        "id" : 11
+    },{
+        "title" : "Do",
+        "means" : "to perform (an action or activity)",
+        "isChecked" : false,
+        "type" : "verb",
+        "id" : 12
+    },{
+        "title" : "Wonderful",
+        "means" : "extremely good",
+        "isChecked" : false,
+        "type" : "adjective",
+        "id" : 13
+    },{
+        "title" : "Fair",
+        "means" : " agreeing with what is thought to be right or acceptable",
+        "isChecked" : false,
+        "type" : "adjective",
+        "id" : 14
+    },{
+        "title" : "Even",
+        "means" : "used to stress something that is surprising or unlikely",
+        "isChecked" : false,
+        "type" : "adverb",
+        "id" : 15
+    },{
+        "title" : "Soon",
+        "means" : "at a time that is not long from now",
+        "isChecked" : false,
+        "type" : "adverb",
+        "id" : 16
+    },{
+        "title" : "Because",
+        "means" : "for the reason that",
+        "isChecked" : false,
+        "type" : "conjunction",
+        "id" : 17
+    },{
+        "title" : "Of",
+        "means" : "belonging to, relating to, or connected with (someone or something)",
+        "isChecked" : false,
+        "type" : "conjunction",
+        "id" : 18
+    },{
+        "title" : "As",
+        "means" : "used to indicate how a person or thing appears, is thought of, etc.",
+        "isChecked" : false,
+        "type" : "preposition",
+        "id" : 19
+    },{
+        "title" : "So",
+        "means" : "for that reason, and therefore",
+        "isChecked" : false,
+        "type" : "preposition",
+        "id" : 20
+    },
+    {
+        "title" : "Before",
+        "means" : "at a time preceding (something or someone)",
+        "isChecked" : false,
+        "type" : "preposition",
+        "id" : 21
+    },{
+        "title" : "As of",
+        "means" : "used to indicate the time or date when something begins",
+        "isChecked" : false,
+        "type" : "preposition",
+        "id" : 22
+    },{
+        "title" : "While",
+        "means" : "during the time that",
+        "isChecked" : false,
+        "type" : "conjunction",
+        "id" : 23
+    },{
+        "title" : "That",
+        "means" : "used to introduce a clause that is the subject or object of a verb",
+        "isChecked" : false,
+        "type" : "conjunction",
+        "id" : 24
+    },{
+        "title" : "Teach",
+        "means" : "to cause or help (someone) to learn about a subject by giving lessons",
+        "isChecked" : false,
+        "type" : "verb",
+        "id" : 25
+    },{
+        "title" : "Believe",
+        "means" : "to accept or regard (something) as true",
+        "isChecked" : false,
+        "type" : "verb",
+        "id" : 26
+    },{
+        "title" : "Anyhow",
+        "means" : "in a way that is not organized or neat, in a careless way",
+        "isChecked" : false,
+        "type" : "adverb",
+        "id" : 27
+    },{
+        "title" : "Fairly",
+        "means" : "to some degree or extent but not very or extremely, to a reasonable or moderate extent",
+        "isChecked" : false,
+        "type" : "adverb",
+        "id" : 28
+    },{
+        "title" : "Brave",
+        "means" : "to face or deal with (something dangerous or unpleasant)",
+        "isChecked" : false,
+        "type" : "adjective",
+        "id" : 29
+    },
+    {
+        "title" : "Peaceful",
+        "means" : "quiet and calm; without noise, excitement, etc.",
+        "isChecked" : false,
+        "type" : "adjective",
+        "id" : 30
+    },
+]
