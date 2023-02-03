@@ -26,7 +26,6 @@ struct QuizView: View {
                         .ignoresSafeArea()
                 
                     
-                //    QuizButtonView(randoms: modelData.randomData)
                 QuizButtonView(randoms: $modelData.randomData, wordDataa: $modelData.wordData)
                         .frame(width: geometry.size.width / 1.1, height: geometry.size.height / 3.5)
                         .position(x: geometry.size.width / 2, y: geometry.size.height / 2.6)
@@ -88,10 +87,3 @@ struct QuizView: View {
         }.navigationTitle(" ")
     }
 }
-
-//struct QuizView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        QuizView()
-//            .environmentObject(ModelData())
-//    }
-//}

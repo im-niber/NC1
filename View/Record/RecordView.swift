@@ -12,14 +12,6 @@ struct RecordView: View {
     
     @State private var isOpacity = false
     
-//    var filteredWords: [Words] {
-//        modelData.wordData.filter { word in
-//            (!word.isChecked)
-//        }
-//    }
-//
-//    //var words: [Words]
-//
     var body: some View {
         ZStack{
             BackgroundView()

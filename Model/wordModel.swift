@@ -40,12 +40,6 @@ struct Words: Hashable, Codable, Identifiable{
     var means: String
     var isChecked: Bool
     var type: types
-  
-    
-    //    mutating func toggle() {
-    //        self.isChecked = !isChecked
-    //    }
-    
 }
 
 

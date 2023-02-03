@@ -10,8 +10,6 @@ import SwiftUICharts
 
 struct InfoView: View {
     @EnvironmentObject var modelData: ModelData
-
-    //@State private var testWords: [(String, Int)]
     
     var body: some View {
         ZStack{

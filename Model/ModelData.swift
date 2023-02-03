@@ -81,43 +81,22 @@ final class ModelData: ObservableObject{
         switch typeword {
         case .noun :
             typeWords[0].1 += 1
-//            if var value = typeWords["명사"] {
-//                value += 1
-//                typeWords["명사"] = value
-//            }
-          
+
         case .verb:
             typeWords[1].1 += 1
-//            if var value = typeWords["동사"] {
-//                value += 1
-//                typeWords["동사"] = value
-//            }
-            
-            //typeWords["동사"]! += 1
+
         case .adjective :
             typeWords[2].1 += 1
-//            if var value = typeWords["형용사"] {
-//                value += 1
-//                typeWords["형용사"] = value
-//            }
+
         case .adverb :
             typeWords[3].1 += 1
-//            if var value = typeWords["부사"] {
-//                value += 1
-//                typeWords["부사"] = value
-//            }
+
         case .preposition :
             typeWords[4].1 += 1
-//            if var value = typeWords["전치사"] {
-//                value += 1
-//                typeWords["전치사"] = value
-//            }
+
         case .conjunction:
             typeWords[5].1 += 1
-//            if var value = typeWords["접속사"] {
-//                value += 1
-//                typeWords["접속사"] = value
-//            }
+
         }
     }
     

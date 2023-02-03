@@ -48,17 +48,3 @@ struct RecordRow: View {
        
     }
 }
-//
-//struct LandmarkRow_Previews: PreviewProvider {
-//    static var modelData = ModelData().wordData
-//
-//    static var previews: some View {
-//        Group {
-//            RecordRow(isOpacity: true, words: modelData[0])
-//            RecordRow(words: modelData[1], isOpacity: true)
-//
-//        }
-//        .previewLayout(.fixed(width: 300, height: 70))
-//        .environmentObject(ModelData())
-//    }
-//}

@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct QuizButtonView: View {
-    //@EnvironmentObject var modelData : ModelData
     @Binding var randoms: Array<Int>
     @Binding var wordDataa: Array<Words>
     
@@ -20,7 +19,6 @@ struct QuizButtonView: View {
                 .ignoresSafeArea()
                 .shadow(color: .black, radius: 10, x: 1, y: 3)
             
-            //Text(modelData.wordData[randoms[0]].title)
             Text(wordDataa[randoms[0]].title)
                 .font(.title3)
                 .fontWeight(.heavy)
@@ -29,16 +27,3 @@ struct QuizButtonView: View {
         
     }
 }
-
-//struct QuizButtonView_Previews: PreviewProvider {
-//    //static let modelData = ModelData()
-//
-//    //    static var previews: some View {
-//    //        QuizButtonView(words: modelData.wordData[0] )
-//    //    }
-//
-//    static var previews: some View {
-//        QuizButtonView(randoms: [1,2,3,4])
-//            .environmentObject(ModelData())
-//    }
-//}
