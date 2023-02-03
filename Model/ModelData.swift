@@ -24,15 +24,12 @@ final class ModelData: ObservableObject{
             randomDatas.insert(Int.random(in: 0..<wordData.endIndex))
         }
 
-        print(randomDatas)
         randomData = Array(randomDatas)
     }
     
 // 틀린 단어들을 삽입하는 함수
     func checkedWord(word: Words) {
         checkedData.insert(word)
-        //checkedData.append(word)
-        print(checkedData)
     }
     
 // 체크하면 틀린 단어 리스트에서 해당 단어를 삭제하는 함수
@@ -101,14 +98,6 @@ final class ModelData: ObservableObject{
     }
     
 }
-
-
-//var wordData : [Words] = load("words.json")
-//
-//var randomData : Array<Int> {
-//    randomCreate()
-//}
-//var randomData: Array<Int> = randomCreate(index: wordData.endIndex)
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
